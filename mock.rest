@@ -1,0 +1,24 @@
+https://63c6d291dcdc478e15ca4df5.mockapi.io/appliances
+
+
+###
+https://63c66b68d307b7696738a8cf.mockapi.io/products
+
+
+###
+POST  http://localhost:3001/users
+Content-Type: application/json
+
+{
+  "username": "prithvi",
+  "password": "prithvi",
+  "email": "prithvi@mail.com",
+  "firstname": "prithvi",
+  "lastname": "chouhan",
+  "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/762.jpg"
+}
+
+
+###
+DELETE http://localhost:3001/users/2
+Content-Type: application/json
